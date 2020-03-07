@@ -8,11 +8,15 @@ public class PlayerInteract : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (!interacting && Input.GetKeyDown(KeyCode.E) && collision.gameObject.layer == 9)
+        if (!interacting && Input.GetKeyDown(KeyCode.E) && collision.gameObject.layer == 9 || collision.gameObject.layer == 10)
         {
-            if (collision.CompareTag("Door"))
+            if (collision.CompareTag("DoorMove"))
             {
-                collision.GetComponent<Door>().Transition();
+                collision.GetComponent<DoorMove>().Transition();
+            }
+            else if (collision.CompareTag("DoorLoad"))
+            {
+                collision.GetComponent<DoorLoad>().Transition();
             }
             else if (collision.CompareTag("InteractInanimate"))
             {

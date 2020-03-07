@@ -5,6 +5,8 @@ using UnityEngine;
 public class InteractInanimate : MonoBehaviour
 {
     public string[] text;
+    public bool oneTime = false;
+    public float startDelay = 0;
 
     private GameObject textBox;
     private DisplayText displayText;
@@ -34,6 +36,7 @@ public class InteractInanimate : MonoBehaviour
 
     IEnumerator WaitForInteraction ()
     {
+        yield return new WaitForSeconds(startDelay);
         textBox.SetActive(true);
         for (int i = 0; i < text.Length; i++)
         {
@@ -48,5 +51,9 @@ public class InteractInanimate : MonoBehaviour
         playerMove.enabled = true;
         yield return new WaitForSeconds(0.1f);
         playerInteract.interacting = false;
+        if (oneTime)
+        {
+            gameObject.SetActive(false);
+        } 
     }
 }
