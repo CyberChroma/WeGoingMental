@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac36088a10280624ebd6a09761771d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smoothing: 10
+  smoothing: 5
   target: {fileID: 0}
 --- !u!1 &1088324491344747580
 GameObject:
@@ -106,7 +106,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
