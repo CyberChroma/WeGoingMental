@@ -1,0 +1,958 @@
+fileFormatVersion: 2
+guid: ebbe3a4aa5ad51a46b48fb79eb6bf1a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3584928873646350893
+    second: CamIdleBack_1
+  - first:
+      213: -9149626122043407647
+    second: CamSpriteSheet_1
+  - first:
+      213: -2524016169347003477
+    second: CamIdleLeft_0
+  - first:
+      213: -6931137146043366600
+    second: CamIdleFront_0
+  - first:
+      213: -6652504696391601688
+    second: CamIdleBack_0
+  - first:
+      213: -5350205348939051193
+    second: CamIdleRight_0
+  - first:
+      213: 2714964944199130469
+    second: CamIdleRight_1
+  - first:
+      213: 8462558666599654666
+    second: CamSpriteSheet_7
+  - first:
+      213: -9139039966310164253
+    second: CamIdleFront_1
+  - first:
+      213: -7846031224259815774
+    second: CamSpriteSheet_9
+  - first:
+      213: 7529216253812272426
+    second: CamSpriteSheet_10
+  - first:
+      213: 236767671952516951
+    second: CamIdleLeft_1
+  - first:
+      213: -1805262272151410399
+    second: CamSpriteSheet_12
+  - first:
+      213: 6413814525783000115
+    second: CamSpriteSheet_13
+  - first:
+      213: 7817723774096804758
+    second: CamSpriteSheet_14
+  - first:
+      213: 9099806761196479271
+    second: CamSpriteSheet_15
+  - first:
+      213: 6863153724390453368
+    second: CamSpriteSheet_16
+  - first:
+      213: -2160895888638567821
+    second: CamSpriteSheet_17
+  - first:
+      213: -531109148644613855
+    second: CamSpriteSheet_18
+  - first:
+      213: 6406003797647304936
+    second: CamSpriteSheet_19
+  - first:
+      213: -8587191807584065113
+    second: CamSpriteSheet_20
+  - first:
+      213: 1578454675170735374
+    second: CamSpriteSheet_21
+  - first:
+      213: -5772468752119043894
+    second: CamSpriteSheet_22
+  - first:
+      213: 8500491759372043134
+    second: CamWalkFront_0
+  - first:
+      213: 7438145375780889553
+    second: CamWalkFront_1
+  - first:
+      213: -8237722239620112817
+    second: CamWalkFront_2
+  - first:
+      213: -8249968758879424911
+    second: CamWalkFront_3
+  - first:
+      213: -5337504168893785555
+    second: CamWalkFront_4
+  - first:
+      213: 5433692679758441394
+    second: CamWalkFront_5
+  - first:
+      213: -4749245339225209201
+    second: CamWalkBack_0
+  - first:
+      213: -1136388797650732928
+    second: CamWalkBack_1
+  - first:
+      213: 4241981305203631979
+    second: CamWalkBack_2
+  - first:
+      213: -3619854510415127936
+    second: CamWalkBack_3
+  - first:
+      213: -2959721235598647605
+    second: CamWalkBack_4
+  - first:
+      213: 8456280427312660817
+    second: CamWalkBack_5
+  - first:
+      213: 3995982798787630991
+    second: CamWalkRight_0
+  - first:
+      213: -4662389224815243927
+    second: CamSpriteSheet_36
+  - first:
+      213: 2240115363985178682
+    second: CamWalkRight_1
+  - first:
+      213: 6255477488037838935
+    second: CamSpriteSheet_38
+  - first:
+      213: 5864705647840385575
+    second: CamWalkRight_2
+  - first:
+      213: 4081129345599107919
+    second: CamWalkRight_3
+  - first:
+      213: -8457866289445054474
+    second: CamSpriteSheet_41
+  - first:
+      213: 4736719792665397109
+    second: CamWalkRight_4
+  - first:
+      213: -73954322007291362
+    second: CamSpriteSheet_43
+  - first:
+      213: 6353503141391581829
+    second: CamWalkRight_5
+  - first:
+      213: 1326930849499161155
+    second: CamSpriteSheet_45
+  - first:
+      213: 3372210285420534459
+    second: CamSpriteSheet_46
+  - first:
+      213: 4832681271198919932
+    second: CamWalkLeft_0
+  - first:
+      213: 2504406596465213008
+    second: CamWalkLeft_1
+  - first:
+      213: -8871067608192390803
+    second: CamSpriteSheet_61
+  - first:
+      213: 6610894566817492823
+    second: CamWalkLeft_3
+  - first:
+      213: 4482418414290932909
+    second: CamWalkLeft_4
+  - first:
+      213: 8318800666463975501
+    second: CamSpriteSheet_64
+  - first:
+      213: -6731918345114138421
+    second: CamSpriteSheet_74
+  - first:
+      213: 198022769744333881
+    second: CamSpriteSheet_75
+  - first:
+      213: -6050001919826987696
+    second: CamWalkLeft_2
+  - first:
+      213: 1932632886928026617
+    second: CamSpriteSheet_77
+  - first:
+      213: 6744021277186242899
+    second: CamSpriteSheet_78
+  - first:
+      213: -518829707452991532
+    second: CamWalkLeft_5
+  - first:
+      213: 8725528409246085079
+    second: CamSpriteSheet_80
+  - first:
+      213: -6456152749836623227
+    second: CamSpriteSheet_81
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CamIdleBack_1
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 5020
+        width: 463
+        height: 949
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5aca7854cb536c42a3ac7cadf5aaac1
+      internalID: 3584928873646350893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamIdleLeft_0
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 5014
+        width: 348
+        height: 955
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f917a76f8275c314bb6f94d0d862b4d8
+      internalID: -2524016169347003477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamIdleFront_0
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 5020
+        width: 466
+        height: 949
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bce00533994134dbb59e01aa588a1e
+      internalID: -6931137146043366600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamIdleBack_0
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 5020
+        width: 495
+        height: 923
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19106cdfca05daf4c92a2e82292ec85a
+      internalID: -6652504696391601688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamIdleRight_0
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 5014
+        width: 349
+        height: 946
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cf16cfa1a911548a3de0b13f165fc3
+      internalID: -5350205348939051193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamIdleRight_1
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 5011
+        width: 363
+        height: 916
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177dc164e701e2a4e8c407405c540233
+      internalID: 2714964944199130469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamIdleFront_1
+      rect:
+        serializedVersion: 2
+        x: 4033
+        y: 5020
+        width: 474
+        height: 926
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5420f09fb66707d4abe2db5c706cef6b
+      internalID: -9139039966310164253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamIdleLeft_1
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 5011
+        width: 364
+        height: 908
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8d895608d5ae3469f98917f560d998
+      internalID: 236767671952516951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkFront_0
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 3795
+        width: 463
+        height: 953
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da302a1c2d5f264e93270be83248465
+      internalID: 8500491759372043134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkFront_1
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3795
+        width: 463
+        height: 953
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e87847439bda7e40b540ae87de3e511
+      internalID: 7438145375780889553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkFront_2
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 3795
+        width: 483
+        height: 888
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9843ae3abd23f543a20e8e84a4b5e0b
+      internalID: -8237722239620112817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkFront_3
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 3795
+        width: 463
+        height: 953
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cb795c67caa624885a56316ad12f5e
+      internalID: -8249968758879424911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkFront_4
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 3795
+        width: 463
+        height: 953
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cc071fc5c5cda42bb469d2f65a7fd4
+      internalID: -5337504168893785555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkFront_5
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 3795
+        width: 484
+        height: 888
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87ad8d27b7a10d47840bf35d10dc085
+      internalID: 5433692679758441394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkBack_0
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2659
+        width: 466
+        height: 949
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929314872453e2942ab195aafaca3d11
+      internalID: -4749245339225209201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkBack_1
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2659
+        width: 463
+        height: 949
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33977e3ce0c9f6e4fb1c4c6381994d4a
+      internalID: -1136388797650732928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkBack_2
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 2657
+        width: 477
+        height: 889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2e3a795f005f8409f295af0335ea23
+      internalID: 4241981305203631979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkBack_3
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 2659
+        width: 463
+        height: 949
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6366948ba7190468fc3df1fca57b06
+      internalID: -3619854510415127936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkBack_4
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 2659
+        width: 463
+        height: 949
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63ed3594ec979f4facf2e8026160658
+      internalID: -2959721235598647605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkBack_5
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 2657
+        width: 477
+        height: 889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02cdea0070ce824abae38c62408530d
+      internalID: 8456280427312660817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkRight_0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1522
+        width: 349
+        height: 955
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95f50dd9daf4dc4ab5c66c2b1d24020
+      internalID: 3995982798787630991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkRight_1
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1516
+        width: 348
+        height: 955
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa5398be492c164a8128d912c4103f9
+      internalID: 2240115363985178682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkRight_2
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1516
+        width: 375
+        height: 905
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32569150aa8052648bd941d5847ad88a
+      internalID: 5864705647840385575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkRight_3
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1516
+        width: 348
+        height: 955
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e1e356c6d8baa4198f0d6e6f80fc41
+      internalID: 4081129345599107919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkRight_4
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 1516
+        width: 334
+        height: 955
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80e73035cacfef42983038e2c249692
+      internalID: 4736719792665397109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkRight_5
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 1516
+        width: 348
+        height: 905
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2549f3e29e957204cb345ff931fd9ec2
+      internalID: 6353503141391581829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkLeft_0
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 356
+        width: 348
+        height: 955
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c9e6cc98147a74787d5045e1984f6f
+      internalID: 4832681271198919932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkLeft_1
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 356
+        width: 349
+        height: 955
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3d5e8b9146b7442a26c09ca826711f
+      internalID: 2504406596465213008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkLeft_3
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 356
+        width: 348
+        height: 955
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5c9f46e986e084ba9ffb34765520c2
+      internalID: 6610894566817492823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkLeft_4
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 356
+        width: 337
+        height: 955
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0075673a2e3db343871a9c26040a20e
+      internalID: 4482418414290932909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkLeft_2
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 356
+        width: 375
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5df91a2578e60458f3c2ae147a24e1
+      internalID: -6050001919826987696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamWalkLeft_5
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 356
+        width: 352
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828ee0aeac919924591fa59b6d72c5d7
+      internalID: -518829707452991532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
