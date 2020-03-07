@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BetweenScenesInfo : MonoBehaviour
 {
     public static BetweenScenesInfo instance = null;
 
     public Vector2 playerSpawn;
-    public string[] inventory;
         
     // Start is called before the first frame update
     void Start()

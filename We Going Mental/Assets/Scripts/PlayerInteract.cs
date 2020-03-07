@@ -4,26 +4,25 @@ using UnityEngine;
 
 public class PlayerInteract : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    [HideInInspector] public bool interacting = false;
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (!interacting && Input.GetKeyDown(KeyCode.E) && collision.gameObject.layer == 9)
         {
             if (collision.CompareTag("Door"))
             {
                 collision.GetComponent<Door>().Transition();
             }
+            else if (collision.CompareTag("InteractInanimate"))
+            {
+                collision.GetComponent<InteractInanimate>().StartInteraction();
+            }
+            else if (collision.CompareTag("InteractNpc"))
+            {
+                collision.GetComponent<InteractNpc>().StartInteraction();
+            }
+            interacting = true;
         }
     }
 }
