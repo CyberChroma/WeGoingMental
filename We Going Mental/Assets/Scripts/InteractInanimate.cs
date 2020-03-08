@@ -42,8 +42,8 @@ public class InteractInanimate : MonoBehaviour
             }
         }
         textBox.SetActive(false);
-        playerMove.enabled = true;
         yield return new WaitForSeconds(0.1f);
+        playerMove.enabled = true;
         playerInteract.interacting = false;
         if (oneTime)
         {
