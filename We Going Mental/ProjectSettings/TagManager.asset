@@ -9,6 +9,7 @@ TagManager:
   - InteractNpc
   - DoorMove
   - DoorLoad
+  - InteractFade
   layers:
   - Default
   - TransparentFX
