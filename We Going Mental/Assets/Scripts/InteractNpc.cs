@@ -24,12 +24,6 @@ public class InteractNpc : MonoBehaviour
         cameraFollow = GameObject.Find("Cam Follow").GetComponent<Follow>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void StartInteraction()
     {
         StartCoroutine(WaitForInteraction());

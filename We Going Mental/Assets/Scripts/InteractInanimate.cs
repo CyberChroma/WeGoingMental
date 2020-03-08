@@ -22,12 +22,6 @@ public class InteractInanimate : MonoBehaviour
         playerInteract = FindObjectOfType<PlayerInteract>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void StartInteraction()
     {
         playerMove.enabled = false;

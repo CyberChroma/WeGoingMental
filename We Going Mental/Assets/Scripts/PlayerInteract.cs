@@ -26,6 +26,10 @@ public class PlayerInteract : MonoBehaviour
             {
                 collision.GetComponent<InteractNpc>().StartInteraction();
             }
+            else if (collision.CompareTag("InteractFade"))
+            {
+                collision.GetComponent<InteractAndMove>().InteractAndFade();
+            }
             interacting = true;
         }
     }
