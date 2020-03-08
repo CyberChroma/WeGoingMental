@@ -24,6 +24,14 @@ public class BetweenScenesInfo : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
+
     public void setPlayerPosition ()
     {
         FindObjectOfType<PlayerMove>().transform.position = playerSpawn;
