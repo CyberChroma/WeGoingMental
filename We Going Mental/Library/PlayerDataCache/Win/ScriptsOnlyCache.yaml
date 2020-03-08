@@ -1,12 +1,16 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ActivateOnTrigger
     - BetweenScenesInfo
     - BlackFade
+    - DestroyByTime
     - DisplayText
     - DoorLoad
     - DoorMove
+    - EnableInteract
     - Follow
+    - InteractAndMove
     - InteractInanimate
     - InteractNpc
     - LoadScene
@@ -85,31 +89,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9734}
     - Class: 114
-      Script: {instanceID: 9918}
+      Script: {instanceID: 9752}
     - Class: 114
-      Script: {instanceID: 9958}
+      Script: {instanceID: 9920}
     - Class: 114
-      Script: {instanceID: 10086}
+      Script: {instanceID: 9960}
     - Class: 114
-      Script: {instanceID: 10118}
+      Script: {instanceID: 10088}
     - Class: 114
-      Script: {instanceID: 10162}
+      Script: {instanceID: 10120}
     - Class: 114
-      Script: {instanceID: 10402}
+      Script: {instanceID: 10164}
     - Class: 114
-      Script: {instanceID: 10506}
+      Script: {instanceID: 10404}
     - Class: 114
-      Script: {instanceID: 11150}
+      Script: {instanceID: 10508}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11056}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11158}
     - Class: 114
-      Script: {instanceID: 11622}
+      Script: {instanceID: 11350}
     - Class: 114
-      Script: {instanceID: 11744}
+      Script: {instanceID: 11504}
     - Class: 114
-      Script: {instanceID: 52728}
+      Script: {instanceID: 11630}
+    - Class: 114
+      Script: {instanceID: 11754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -150,31 +156,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9734}
     - Class: 114
-      Script: {instanceID: 9918}
+      Script: {instanceID: 9752}
     - Class: 114
-      Script: {instanceID: 9958}
+      Script: {instanceID: 9920}
     - Class: 114
-      Script: {instanceID: 10086}
+      Script: {instanceID: 9960}
     - Class: 114
-      Script: {instanceID: 10118}
+      Script: {instanceID: 10088}
     - Class: 114
-      Script: {instanceID: 10162}
+      Script: {instanceID: 10120}
     - Class: 114
-      Script: {instanceID: 10402}
+      Script: {instanceID: 10164}
     - Class: 114
-      Script: {instanceID: 10506}
+      Script: {instanceID: 10404}
     - Class: 114
-      Script: {instanceID: 11150}
+      Script: {instanceID: 10508}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11158}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 11350}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11482}
     - Class: 114
-      Script: {instanceID: 11622}
+      Script: {instanceID: 11504}
     - Class: 114
-      Script: {instanceID: 11744}
+      Script: {instanceID: 11630}
+    - Class: 114
+      Script: {instanceID: 11754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -227,43 +235,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9734}
     - Class: 114
-      Script: {instanceID: 9918}
+      Script: {instanceID: 9752}
     - Class: 114
-      Script: {instanceID: 9958}
+      Script: {instanceID: 9858}
     - Class: 114
-      Script: {instanceID: 10086}
+      Script: {instanceID: 9920}
     - Class: 114
-      Script: {instanceID: 10118}
+      Script: {instanceID: 9960}
     - Class: 114
-      Script: {instanceID: 10188}
+      Script: {instanceID: 10088}
     - Class: 114
-      Script: {instanceID: 10250}
+      Script: {instanceID: 10120}
     - Class: 114
-      Script: {instanceID: 10402}
+      Script: {instanceID: 10190}
     - Class: 114
-      Script: {instanceID: 10506}
+      Script: {instanceID: 10252}
     - Class: 114
-      Script: {instanceID: 10660}
+      Script: {instanceID: 10404}
     - Class: 114
-      Script: {instanceID: 10686}
+      Script: {instanceID: 10508}
     - Class: 114
-      Script: {instanceID: 10722}
+      Script: {instanceID: 10628}
     - Class: 114
-      Script: {instanceID: 11078}
+      Script: {instanceID: 10664}
     - Class: 114
-      Script: {instanceID: 11080}
+      Script: {instanceID: 10690}
     - Class: 114
-      Script: {instanceID: 11108}
+      Script: {instanceID: 10726}
     - Class: 114
-      Script: {instanceID: 11300}
+      Script: {instanceID: 10828}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11086}
     - Class: 114
-      Script: {instanceID: 11380}
+      Script: {instanceID: 11088}
     - Class: 114
-      Script: {instanceID: 11622}
+      Script: {instanceID: 11116}
     - Class: 114
-      Script: {instanceID: 11744}
+      Script: {instanceID: 11308}
+    - Class: 114
+      Script: {instanceID: 11350}
+    - Class: 114
+      Script: {instanceID: 11388}
+    - Class: 114
+      Script: {instanceID: 11630}
+    - Class: 114
+      Script: {instanceID: 11662}
+    - Class: 114
+      Script: {instanceID: 11754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -341,6 +359,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 79f1e4d923cfc803b34c05ae2cb73dac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DestroyByTime
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -541,7 +565,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 8256e3779237e887b20aef9d3503aa93
+      Hash: 9a785911d2714974d7a2f91d9bf8b06d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BlackFade
@@ -563,6 +587,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 803351c6c11669b90aa67b81ae66a75c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnableInteract
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -625,6 +655,12 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: 5393e949d47f0596fbaf91390759679e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InteractAndMove
+  - hash:
+      serializedVersion: 2
       Hash: feb9a5a121d15fa3654d4e50a5233045
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -647,6 +683,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Quit
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -673,7 +715,7 @@ ScriptsOnlyBuild:
     className: ActivationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: df07de56bfb687559cc08d1077b40a06
+      Hash: 20221ac37afc5164632905c9864c0124
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InteractNpc
@@ -781,6 +823,12 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
+      Hash: 48e4a49979ffd430980478f954c1b1af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ActivateOnTrigger
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -863,15 +911,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Quit
   platform: 5
   scenePathNames:
   - Assets/Scenes/Intro.unity
   - Assets/Scenes/Main.unity
   - Assets/Scenes/End.unity
-  playerPath: C:/Users/cyber/OneDrive/Documents/GitHub/WeGoingMental/Build/Lojam 3.exe
+  playerPath: C:/Users/cyber/OneDrive/Documents/GitHub/Lojam Build/Lojam 3.exe

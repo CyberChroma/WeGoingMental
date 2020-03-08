@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class BlackFade : MonoBehaviour
 {
-    public float smoothing;
+    public float outSmoothing;
+    public float inSmoothing;
 
     [HideInInspector] public bool fadeBlack;
     [HideInInspector] public bool fading;
@@ -28,7 +29,7 @@ public class BlackFade : MonoBehaviour
         {
             if (fadeBlack)
             {
-                blackScreen.color = Color.Lerp(blackScreen.color, new Color(0, 0, 0, 1), smoothing * Time.deltaTime);
+                blackScreen.color = Color.Lerp(blackScreen.color, new Color(0, 0, 0, 1), outSmoothing * Time.deltaTime);
                 if (blackScreen.color.a >= 0.95f)
                 {
                     blackScreen.color = new Color(0, 0, 0, 1);
@@ -37,7 +38,7 @@ public class BlackFade : MonoBehaviour
             }
             else
             {
-                blackScreen.color = Color.Lerp(blackScreen.color, new Color(0, 0, 0, 0), smoothing * Time.deltaTime);
+                blackScreen.color = Color.Lerp(blackScreen.color, new Color(0, 0, 0, 0), inSmoothing * Time.deltaTime);
                 if (blackScreen.color.a <= 0.05f)
                 {
                     blackScreen.color = new Color(0, 0, 0, 0);

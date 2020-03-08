@@ -7,6 +7,7 @@ public class InteractNpc : MonoBehaviour
     public string[] text;
     public string[] characterTalking;
     public Transform[] talkPoints;
+    public bool oneTime;
 
     private GameObject textBox;
     private DisplayText displayText;
@@ -48,5 +49,9 @@ public class InteractNpc : MonoBehaviour
         playerMove.enabled = true;
         yield return new WaitForSeconds(0.1f);
         playerInteract.interacting = false;
+        if (oneTime)
+        {
+            gameObject.SetActive(false);
+        }
     }
 }

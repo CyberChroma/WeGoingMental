@@ -18,6 +18,15 @@ public class PlayerMove : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
     }
 
+    private void OnDisable()
+    {
+        anim.SetBool("IsWalking", false);
+        if (direction == 0)
+        {
+            direction = 2;
+            anim.SetInteger("Direction", 2);
+        }
+    }
     // Update is called once per frame
     void FixedUpdate()
     {
