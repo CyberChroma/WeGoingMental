@@ -30,6 +30,7 @@ public class InteractInanimate : MonoBehaviour
 
     IEnumerator WaitForInteraction ()
     {
+        playerInteract.interacting = true;
         yield return new WaitForSeconds(startDelay);
         textBox.SetActive(true);
         for (int i = 0; i < text.Length; i++)
